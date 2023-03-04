@@ -65,3 +65,20 @@ When calculate the complexity of a code, we need to consider the worst case scen
 
 When calculate the complexity of a code, we need to remove the constants.
 
+### Rule 3: Different terms for inputs
+
+Is a trickier point, but when calculate the complexity of a code, we need to consider the different terms for inputs.
+
+Example of how tricky it can be:
+
+```js
+ const compressBoxesTwice = (boxes, boxes2) => {
+  boxes.forEach(box => console.log(box));
+  boxes2.forEach(box => console.log(box));
+};
+```
+- The bigO for this seems to be O(2n), or O(n) if we follow the rule 2.
+- But the bigO for this is O(n + m), because we have two different inputs.
+
+
+
