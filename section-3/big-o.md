@@ -26,9 +26,9 @@ This is the example below of a  list of complexity notation:
 - O(2^n) -> Horrible
 - O(n^2) -> Horrible
 - O(n log n) -> Bad
-- O(n) -> Bad
-- O(log n) -> Fair
-- O(1) -> Good
+- O(n) -> Fair
+- O(log n) -> Good
+- O(1) -> Excellent
 
 ## O(n) - Linear time
 
@@ -38,5 +38,15 @@ Example of O(n) - Linear time:
 
 ```js
  const compressAllBoxes = boxes => boxes.forEach(box => console.log(box));
+```
+
+## O(1) - Constant time
+
+The number of operations is the same no matter how many entries in the array.
+
+Example of O(1) - Linear time:
+
+```js
+ const compressFirstBox = boxes => console.log(boxex[0]);
 ```
 
