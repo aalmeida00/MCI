@@ -61,5 +61,7 @@ Example of O(1) - Linear time:
 
 When calculate the complexity of a code, we need to consider the worst case scenario. 
 
+### Rule 2: Remove constants
 
+When calculate the complexity of a code, we need to remove the constants.
 
