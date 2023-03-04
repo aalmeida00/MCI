@@ -29,3 +29,14 @@ This is the example below of a  list of complexity notation:
 - O(n) -> Bad
 - O(log n) -> Fair
 - O(1) -> Good
+
+## O(n) - Linear time
+
+The number of operations is the same as the number of entries in the array.
+
+Example of O(n) - Linear time:
+
+```js
+ const compressAllBoxes = boxes => boxes.forEach(box => console.log(box));
+```
+
