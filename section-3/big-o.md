@@ -30,6 +30,13 @@ This is the example below of a  list of complexity notation:
 - O(log n) -> Good
 - O(1) -> Excellent
 
+In interviews most of the time you just need to know the worst case scenario.
+- Rule 1: Worst case scenario
+- Rule 2: Remove constants
+- Rule 3: Different terms for inputs
+- Rule 4: Drop non-dominant terms
+
+
 ## O(n) - Linear time
 
 The number of operations is the same as the number of entries in the array.
@@ -49,4 +56,10 @@ Example of O(1) - Linear time:
 ```js
  const compressFirstBox = boxes => console.log(boxex[0]);
 ```
+
+### Rule 1: Worst case scenario
+
+When calculate the complexity of a code, we need to consider the worst case scenario. 
+
+
 
